@@ -1,6 +1,7 @@
 # 4cc
 
 Compiler for the C programming language.
+This is an experimental project.
 
 ## Build
 
