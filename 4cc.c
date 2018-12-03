@@ -62,8 +62,8 @@ int main(int argc, char **argv) {
   tokenize(argv[1]);
 
   printf(".intel_syntax noprefix\n");
-  printf(".global _main\n");
-  printf("_main:\n");
+  printf(".global main\n");
+  printf("main:\n");
 
   if (tokens[0].ty != TK_NUM)
     error(0);
